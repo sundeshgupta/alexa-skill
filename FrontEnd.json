@@ -1,0 +1,112 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cricverbal",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlayCricverbalIntent",
+                    "slots": [],
+                    "samples": [
+                        "play verbal cricket",
+                        "play cricket",
+                        "let us play verbalcricket",
+                        "let us play cricket",
+                        "lets play cricverbal",
+                        "let us play",
+                        "play",
+                        "play cricverbal"
+                    ]
+                },
+                {
+                    "name": "NumberIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "i threw {number}",
+                        "i choose {number}",
+                        "i throw {number}",
+                        "{number}"
+                    ]
+                },
+                {
+                    "name": "BatIntent",
+                    "slots": [],
+                    "samples": [
+                        "bat first",
+                        "batting",
+                        "i choose to bat first",
+                        "i want to bat first",
+                        "i want to bat",
+                        "bat",
+                        "i choose bat"
+                    ]
+                },
+                {
+                    "name": "BallIntent",
+                    "slots": [],
+                    "samples": [
+                        "balling",
+                        "i choose ball",
+                        "i want to ball first",
+                        "i want to ball",
+                        "ball first",
+                        "i choose to ball first",
+                        "ball"
+                    ]
+                },
+                {
+                    "name": "PlayAgainIntent",
+                    "slots": [],
+                    "samples": [
+                        "ya i want to play again",
+                        "yeah i would like to play again",
+                        "ya",
+                        "yeah",
+                        "yup i want to play again",
+                        "yup ",
+                        "yes i want to play again",
+                        "yes i would like to play again",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "DontPlayAgainIntent",
+                    "slots": [],
+                    "samples": [
+                        "nope i dont want to play again",
+                        "nope i dont wanna play again",
+                        "nopes",
+                        "nope",
+                        "na ",
+                        "nahi",
+                        "nah",
+                        "no i would not like to play again",
+                        "no i dont want to play again",
+                        "no"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
